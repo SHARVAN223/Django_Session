@@ -10,3 +10,5 @@ class Employee(models.Model):
     Gender =models.CharField(max_length=20)
     State = models.CharField(max_length=20)
 
+    def __str__(self):
+        return str(self.Contact) + " " +self.Name

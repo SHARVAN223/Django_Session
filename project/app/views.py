@@ -71,7 +71,7 @@ def sqlite(req):
 
     Employee.objects.create(
         Name = n,
-        Email = e,
+        Email = e, 
         Password = p,
         Contact = c,
         Qualification = q,
